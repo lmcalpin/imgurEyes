@@ -1,0 +1,20 @@
+h1. imgurEyes
+
+This was a simple iPhone application I started about two years ago to learn iPhone programming. It demonstrates the use of the
+camera, tab bar, and photo gallery components in the "Three20 iOS library":http://three20.info/, as well as interacting with
+SQLite and making HTTP requests to interact with a web service.
+
+The idea behind the app was to have a simple camera that immediately uploaded contents to a cloud provider; in this case, I picked
+imgur, but it could as easily have been DropBox or TwitPic or whoever.  Since the photograph would go directly to 
+the external source without being stored on the phone itself (except perhaps temporarily, to allow for some resilience in the case 
+of network outages, and to faciliate the background transfer of the photograph), it would save me a step that I generally always took 
+anyway.  Also, for people who tend to stumble into situations where they want to document things that might get their phones
+confiscated (hopefully for good reasons, like at a pro-democracy protest in China or something), I guess an app like this would
+be good for them too.  [Note that I never did get around to implementing caching the photo or background file transfer.]
+
+There probably isn't much need for this idea anymore, since many camera makers are coming out with WiFi enabled cameras which will
+probably accomplish the same thing.
+
+But it was a fun excuse to learn some iOS programming, and maybe you might find it useful as a launching point for an application 
+of your own.
+
